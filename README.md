@@ -11,6 +11,10 @@ then run
 
 example request:
 
-```http://localhost:8000/?camera=10&ram=10&storage=10&battery=10```
+```
+GET
+http://localhost:8000/?camera=10&ram=10&storage=10&battery=10
+
+```
 
 where camera, ram, storage and battery have corresponding ranking given by user
